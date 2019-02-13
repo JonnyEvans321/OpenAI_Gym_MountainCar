@@ -2,8 +2,8 @@ import gym
 import numpy as np
 import random
 
-max_steps=1000
-max_iterations=1000
+max_steps=500
+max_iterations=10000
 play_mode=False #set whether we want to watch every iteration play out
 
 def train_episode(env, play):
@@ -61,4 +61,6 @@ if __name__ == '__main__':
 			break
 			
 	#%% play the best model
+	for i in range(10):
+		test_episode(best_action_memory)
 	test_episode(best_action_memory)
