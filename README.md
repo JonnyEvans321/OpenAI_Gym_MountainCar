@@ -9,8 +9,10 @@ This script shows a very simple agent that uses an alteration to the given rewar
 
 The agent here simply takes actions at random at each step (using a random integer to select left, right, or neutral). At the end of each episode it takes its 'total reward' as the greatest reward achieved at any step (i.e. the furthest distance it reached to the right). Then after completing n episodes, the best 'total reward' is taken, along with the actions it took on this episode.
 
-Result with original reward:
+Result with original reward: 
+
 ![gameplay video](https://github.com/JonnyEvans321/OpenAI_Gym_MountainCar/blob/master/org_reward.gif)
 
 Result with alternative reward:
+
 ![gameplay video](https://github.com/JonnyEvans321/OpenAI_Gym_MountainCar/blob/master/alt_reward.gif)
