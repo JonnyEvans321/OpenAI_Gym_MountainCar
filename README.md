@@ -1,4 +1,4 @@
-# OpenAI_Gym_MountainCar
+# OpenAI Gym - MountainCar: Alternative reward function for a random agent
 I've started playing with OpenAI's Gym for training reinforcement learning algorithms. 
 
 I noticed that for the mountain car environment, the reward value is simply -1 on every step until the maximum number of iterations is hit, or the termination condition is met (the cart gets to the flag). This has meant that my very simple algorithms have been unable to complete the task. It seems I'm not alone: 
